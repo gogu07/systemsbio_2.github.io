@@ -104,6 +104,69 @@ a {
   .project-tagline {
     font-size: 1rem; } }
 
+nav ul{
+    padding:20px;
+    border-radius:10px;
+    position: relative;
+    display:inline-block;
+}
+
+ul#navmenu, ul.sub1, ul.sub2{
+      list-style-type:none; 
+      border:1px solid orange;
+}
+ul#navmenu li{
+      border: 1px solid red;
+      width:100px;
+      text-align:center;
+      position:relative;
+      float:left;
+      margin-right: 4px;
+      
+}
+
+ul#navmenu a{
+      text-decoration:none;
+      display:block;
+      width:100px;
+      height:25px;
+      line-height:25px;
+      background-color:#cd596b;
+      border:1px solid #cd596b;
+      border-radius:5px;
+}
+
+ul#navmenu li {
+          border:1px solid #cd596b;
+}
+
+ul#navmenu .sub1 a {
+        margin-top:3px;  
+        
+}
+
+ul#navmenu .sub2 a {
+        margin-left:8px;  
+        
+}
+ul#navmenu li:hover > a {
+        background-color: yellow;  
+        
+}
+.nav ul li:hover{
+      background:blue;
+      background:linear-gradiet(top, maroon, red);
+      background: -moz linear-gradiet(top, maroon, red);
+      background: -webkit-linaer-gradient(top, maroon, red);
+}
+.nav ul li:hover>{margin:0px; padding:0px;}
+.nav ul li:hover>{float:none; display:block;}
+.nav ul li:hover>{color: #666; min-width:150px}
+.nav ul li:hover>ul li a:hover{color:#fff;}
+
+.nav ul li{position:relative;}
+.nav ul li:{position:absolute; top:30px; left:0px}
+
 .main-content :first-child {
   margin-top: 0; }
 .main-content img {
