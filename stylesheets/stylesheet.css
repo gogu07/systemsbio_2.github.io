@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box; }
+   box-sizing: border-box; }
 
 body {
   padding: 0;
@@ -14,8 +14,8 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-
-.btn {
+    
+    .btn {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
@@ -103,8 +103,8 @@ a {
 @media screen and (max-width: 42em) {
   .project-tagline {
     font-size: 1rem; } }
-
-nav ul{
+    
+ nav ul{
     padding:20px;
     border-radius:10px;
     position: relative;
@@ -116,12 +116,12 @@ ul#navmenu, ul.sub1, ul.sub2{
       border:none;
 }
 ul#navmenu li{
-      border: 1px solid red;
+      border: none;
       width:100px;
       text-align:center;
       position:relative;
       float:left;
-      margin-right: 4px;
+      margin-right: 2px;
       
 }
 
@@ -146,7 +146,7 @@ ul#navmenu .sub1 a {
 }
 
 ul#navmenu .sub2 a {
-        margin-left:8px;  
+        margin-left:2px;  
         
 }
 ul#navmenu li:hover > a {
@@ -166,7 +166,6 @@ ul#navmenu li:hover > a {
 
 .nav ul li{position:relative;}
 .nav ul li:{position:absolute; top:30px; left:0px}
-
 
 .main-content :first-child {
   margin-top: 0; }
