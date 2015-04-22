@@ -131,9 +131,13 @@ ul#navmenu a{
       width:100px;
       height:25px;
       line-height:25px;
-      
+      background-color:#cd596b;
+      border:1px solid #cd596b;
+      border-radius:5px;
 }
 
+ul#navmenu li {
+          border:1px solid #cd596b;
 }
 
 ul#navmenu .sub1 a {
@@ -162,6 +166,7 @@ ul#navmenu li:hover > a {
 
 .nav ul li{position:relative;}
 .nav ul li:{position:absolute; top:30px; left:0px}
+
 
 .main-content :first-child {
   margin-top: 0; }
