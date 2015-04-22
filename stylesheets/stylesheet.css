@@ -113,7 +113,7 @@ nav ul{
 
 ul#navmenu, ul.sub1, ul.sub2{
       list-style-type:none; 
-      border:1px solid orange;
+      border:none;
 }
 ul#navmenu li{
       border: 1px solid red;
@@ -132,12 +132,12 @@ ul#navmenu a{
       height:25px;
       line-height:25px;
       background-color:#cd596b;
-      border:1px solid #cd596b;
+      border:none;
       border-radius:5px;
 }
 
 ul#navmenu li {
-          border:1px solid #cd596b;
+          border:none;
 }
 
 ul#navmenu .sub1 a {
