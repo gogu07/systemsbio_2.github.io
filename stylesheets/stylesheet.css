@@ -109,6 +109,7 @@ a {
     font-size: 1rem; } }
     
  nav ul{
+    text-align:center;
     padding:20px;
     border-radius:10px;
     position: relative;
