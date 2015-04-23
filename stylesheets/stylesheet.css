@@ -119,6 +119,8 @@ ul#navmenu, ul.sub1, ul.sub2{
       list-style-type:none; 
       border:none;
       font-size:12pt;
+      display:inline-block;
+      float:center;
 }
 ul#navmenu li{
       border: none;
@@ -207,8 +209,9 @@ ul#navmenu li:hover .sub2{
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: normal;
-  color: #159957; }
+  font-weight: left;
+  color: #159957;
+  display:inline-block;}
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
@@ -339,3 +342,4 @@ ul#navmenu li:hover .sub2{
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
